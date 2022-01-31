@@ -13,6 +13,7 @@ export const Counter=()=>{
     }
     let doubleChange=(val)=>{
         setCounter(counter*val)
+        // setCounter(counter/val)
     }
 
     if(counter>=200){
