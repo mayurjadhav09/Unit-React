@@ -1,0 +1,176 @@
+.App {
+  /* text-align: center; */
+  /* display: grid; */
+  padding: 10px;
+  background-color: midnightblue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#navbar{
+  display: flex;
+  /* border: 1px solid red; */
+  height: 60px;
+  gap: 25px;
+}
+#navbar > div{
+  border: 1px solid transparent;
+  border-radius: 5px;
+ 
+
+}
+.logo{
+  width: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+
+
+}
+.newpostbutton{
+  width: 150px;
+
+}
+.logoimg{
+  /* width: 100%; */
+  height: 100%;
+  margin: auto;
+}
+.newpt{
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: mediumspringgreen;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* font-family:'Times New Roman', Times, serif */
+
+}
+#searchBar{
+  width: 500px;
+  margin-left: 25px;
+  /* width: 80%; */
+  display: flex;
+ 
+}
+input{
+  width: 90%;
+  height: 50%;
+  /* background-color: rgb(225, 217, 217); */
+  color: Black;
+  font-weight: 700;
+  /* border-radius: 5px; */
+  /* border-radius-left:5px ; */
+  border: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+#searchBar >div{
+  width: 10%;
+  height: 56%;
+  /* border: 1px solid red; */
+}
+#body1{
+
+  /* border: 1px solid red; */
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-content: space-around;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+}
+#heart{
+  border: 1px solid black;
+  width: 15%;
+  height: 300px;
+}
+#mob{
+  border: 1px solid black;
+  width: 45%;
+
+}
+#most{
+  border: 1px solid black;
+  width: 25%;
+
+}
+
+.mobi{
+
+  width: 400px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+
+  margin: auto;
+  margin-top: 60px;
+}
+.scroll{
+  width: 300px;
+  height: 600px;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  overflow: scroll;
+  justify-content: space-between;
+  border-top:1px solid white ;
+  /* scroll-behavior: smooth; */
+  /* scroll-snap-type: none; */
+  /* scroll-margin-block: 1px;
+   */
+   scroll-margin-bottom:none ;
+}
+.simg{
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+ 
+}
+
+
+
