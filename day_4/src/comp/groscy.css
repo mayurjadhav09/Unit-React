@@ -1,0 +1,24 @@
+.list{
+    /* background-color: yellowgreen; */
+    border-radius: 12px;
+    margin-top: 55px;
+    height: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: auto;
+    
+  
+  }
+  button{
+      background-color: yellow;
+  }
+  li{
+      list-style:disc;
+      overflow-wrap: break-word;
+  }
+  .checkbox{
+      height: 25px;
+  }
+  
