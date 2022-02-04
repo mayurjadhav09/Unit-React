@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 export const Counter=()=>{
 
     const [count, setCounter]=useState(0)
-    let [count2,setCounter2]=useState(0)
+    var [count2,setCounter2]=useState(0)
     var c1=1
    
     let changeCount=()=>{
@@ -17,6 +17,8 @@ export const Counter=()=>{
     }
     if(count>9){
         count2=0
+        
+  
     }
 
   
