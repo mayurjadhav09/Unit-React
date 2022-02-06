@@ -40,9 +40,14 @@ export const Todo = () => {
   return loading ? (
     "Fetching Data.........."
   ) : (
-    <div className="">
-      <input placeholder="Add task" onChange={(e) => setText(e.target.value)} />
-      <button
+       
+    <div className="outerScreen">
+        <h1 className="title">Todo...</h1>
+         <input className="inputTitle" type="text" />
+      <input className="inputBody" placeholder="Add task" onChange={(e) => setText(e.target.value)} />
+
+
+      <button className="addBtn"
         onClick={() => {
           const data = { status: false, title: text };
           fetch(" http://localhost:3001/todos", {
@@ -54,7 +59,7 @@ export const Todo = () => {
           }).then(getData);
         }}
       >
-        Add Todo
+        Add 
       </button>
 
       {todos.map(e => 
@@ -68,7 +73,7 @@ export const Todo = () => {
         </div>
       )}
        
-        <button onClick={()=>{
+        <button className="prev" onClick={()=>{
             setPage(page-1)
         }}>Prev</button>
 
