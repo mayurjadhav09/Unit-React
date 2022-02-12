@@ -1,3 +1,6 @@
+//npm instal styled-components
+
+
 import styled from "styled-components";
 const Table = styled.table`
 //   border: 1px solid black;
