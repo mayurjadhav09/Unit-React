@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 25px;
+    text-decoration: none;
+    background-color: teal;
+    padding: 15px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+}

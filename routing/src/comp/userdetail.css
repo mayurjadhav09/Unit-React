@@ -1,0 +1,13 @@
+#det{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 35px;
+}
+img{
+    border-radius: 10px;
+}
+h1,h4{
+    color: maroon;
+}
