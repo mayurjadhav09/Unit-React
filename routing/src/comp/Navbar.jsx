@@ -12,4 +12,4 @@ export const Navbar=()=>{
        <Link  className="link" to="/users">User</Link>
        </div>
     )
-}
+}   
