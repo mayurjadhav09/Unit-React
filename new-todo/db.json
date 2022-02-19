@@ -23,22 +23,6 @@
         "text": "Breakfast"
       },
       "id": 3
-    },
-    {
-      "status": false,
-      "title": {
-        "title": "Daily",
-        "text": "Scrum"
-      },
-      "id": 4
-    },
-    {
-      "status": false,
-      "title": {
-        "title": "Daily",
-        "text": "DSA practice"
-      },
-      "id": 5
     }
   ]
 }
